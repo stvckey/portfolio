@@ -36,17 +36,17 @@ export default function Home() {
               </div>
 
               <div className='hidden md:flex items-center space-x-3'>
-                <a href="#work" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>. WORK( )</a>
-                <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>. ABOUT( )</a>
-                <a href="#tools" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>. TOOLS( )</a>
-                <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>. CONTACT( )</a>
+                <a href="#work" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.WORK()</a>
+                <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.ABOUT()</a>
+                <a href="#tools" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.TOOLS()</a>
+                <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.CONTACT()</a>
               </div>
 
               <div className='hidden md:flex items-center space-x-6'>
                 <div onClick={ () => setDarkMode(!darkMode)} className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
                   <BsFillMoonStarsFill/>
                 </div>
-                <a>
+                <a href="../public/Resume2.pdf" download="EttioneStuckeyII_Resume>
                   <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
                 </a>
               </div>
