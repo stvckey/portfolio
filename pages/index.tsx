@@ -388,10 +388,6 @@ export default function Home() {
             appraisals to assist customers with the buying and selling of their vehicle.
           </p>
 
-          <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
-            &lt;/wrapper&gt;
-          </h3>
-
 
           <h3 className='dark:text-black text-5xl md:text-7xl pt-5 leading-normal font-teko tracking-wide'>
             2. RaceTrac
@@ -419,6 +415,10 @@ export default function Home() {
           <p className='dark:text-black mb-5 font-teko text-white text-2xl md:text-3xl tracking-wide'>
             Completed sales transactions within establishment. (<span className='text-green-400'> My Pleasure! &#128020;</span>)
           </p>
+          
+          <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
+            &lt;/wrapper&gt;
+          </h3>
 
 
 
