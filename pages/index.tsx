@@ -171,7 +171,7 @@ export default function Home() {
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
             <div className='relative overflow-hidden bg-white/40 mb-2 md:h-auto'>
-              <Image src={park} className="h-full w-full md:aspect-video" />
+              <Image width={300} height={300} alt='park' src={park} className="h-full w-full md:aspect-video" />
               <div className='absolute h-full w-full bg-black/70 flex items-center justify-center bottom-0 opacity-100 '>
                 <div>
                   <h3 className='text-4xl md:text-6xl p-5 leading-11 font-tekobold'>National Parks Finder</h3>
@@ -214,7 +214,7 @@ export default function Home() {
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
             <div className='relative overflow-hidden bg-white/40 mb-2 md:h-auto'>
-              <Image src={dream} className="h-full w-full md:aspect-video"/>
+              <Image width={300} height={300} alt='dream' src={dream} className="h-full w-full md:aspect-video"/>
               <div className='absolute h-full w-full bg-black/70 flex items-center justify-center bottom-0 opacity-100'>
                 <div>
                   <h3 className='text-4xl md:text-6xl p-5 leading-11 font-tekobold'>Dreamland Estate</h3>
@@ -255,7 +255,7 @@ export default function Home() {
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
 
             <div className='relative overflow-hidden bg-white/40 mb-2 md:h-auto'>
-              <Image src={movies1} className="object-cover h-full w-full md:aspect-video" />
+              <Image width={300} height={300} alt='movies' src={movies1} className="object-cover h-full w-full md:aspect-video" />
               <div className='absolute h-full w-full bg-black/70 flex items-center justify-center bottom-0 opacity-100 transition-all duration-300'>
                 <div>
                   <h3 className='text-4xl md:text-6xl p-5 leading-11 font-tekobold'>Movie Rater</h3>
