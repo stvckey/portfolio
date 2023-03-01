@@ -171,7 +171,11 @@ export default function Home() {
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
             <div className='relative overflow-hidden bg-white/40 mb-2 md:h-auto'>
+<<<<<<< HEAD
               <Image width={300} height={300} alt='park' src={park.src} className="h-full w-full md:aspect-video" />
+=======
+              <Image width={300} height={300} alt='park' src={park} className="h-full w-full md:aspect-video" />
+>>>>>>> c54242b88fd409026aaa74fdc365039b104c9a56
               <div className='absolute h-full w-full bg-black/70 flex items-center justify-center bottom-0 opacity-100 '>
                 <div>
                   <h3 className='text-4xl md:text-6xl p-5 leading-11 font-tekobold'>National Parks Finder</h3>
