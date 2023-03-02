@@ -60,9 +60,6 @@ export default function Home() {
                           <AiFillFolder className='text-4xl cursor-pointer hover:text-green-400' />
                           }
                 </button>
-                <a href="https://drive.google.com/file/d/1E2MQ2Bo_ih3e8eERFTtyLENq6fmm9rve/view?usp=sharing">
-                  <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
-                </a>
               </div>
               
             </div>
@@ -90,10 +87,9 @@ export default function Home() {
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get in touch</p>
             </a>
 
-            <div onClick={ () => setDarkMode(!darkMode)} className= "dark:text-black py-5 px-8 text-3xl hover:text-green-400 duration-500">
-              <BsFillMoonStarsFill/>
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//toggle darkmode!</p>
-            </div>
+             <a href="https://drive.google.com/file/d/1E2MQ2Bo_ih3e8eERFTtyLENq6fmm9rve/view?usp=sharing">
+               <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
+             </a>
 
           </div> :
           <div className='mobile-menu absolute h-screen w-full bg-black dark:bg-white -translate-x-full duration-500'>
