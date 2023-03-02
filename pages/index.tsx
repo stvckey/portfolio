@@ -52,6 +52,9 @@ export default function Home() {
               </div>
 
               <div className='md:hidden flex items-center'>
+                <a href="https://drive.google.com/file/d/1E2MQ2Bo_ih3e8eERFTtyLENq6fmm9rve/view?usp=sharing">
+                  <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
+                </a>
                 <button className='mobile-menu-button'
                         onClick={() => setMobileMode(!mobileMode)}
                         >
