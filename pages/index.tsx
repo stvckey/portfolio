@@ -46,7 +46,7 @@ export default function Home() {
                 <div onClick={ () => setDarkMode(!darkMode)} className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
                   <BsFillMoonStarsFill/>
                 </div>
-                <a href="./Resume2.pdf" download>
+                <a href="https://drive.google.com/file/d/1E2MQ2Bo_ih3e8eERFTtyLENq6fmm9rve/view?usp=sharing">
                   <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
                 </a>
               </div>
