@@ -9,6 +9,7 @@ import movies1 from '../public/movies(1).jpg'
 import site from '../public/site.png'
 import { useState } from 'react';
 import Typewriter from 'typewriter-effect';
+import Resume from './Resume2.pdf'
 
 
 
@@ -46,7 +47,7 @@ export default function Home() {
                 <div onClick={ () => setDarkMode(!darkMode)} className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
                   <BsFillMoonStarsFill/>
                 </div>
-                <a href="../public/Resume2.pdf">
+                <a href="./Resume2.pdf" download>
                   <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
                 </a>
               </div>
