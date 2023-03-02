@@ -89,7 +89,7 @@ export default function Home() {
 
              <a className="py-5 px-8" href="https://drive.google.com/file/d/1E2MQ2Bo_ih3e8eERFTtyLENq6fmm9rve/view?usp=sharing">
                <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
-               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see more</p>
+               <p className='px-8 text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see more</p>
              </a>
 
           </div> :
@@ -117,7 +117,7 @@ export default function Home() {
 
              <a className="py-5 px-8" href="https://drive.google.com/file/d/1E2MQ2Bo_ih3e8eERFTtyLENq6fmm9rve/view?usp=sharing">
                <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
-               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see more</p>
+               <p className='px-8 text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see more</p>
              </a>
           </div> 
           }
