@@ -498,10 +498,10 @@ export default function Home() {
           <div className='dark:text-black text-5xl md:text-8xl justify-center flex gap-10 py-3'>
             <a href="https://github.com/stvckey">
               <AiFillGithub />
-            <a>
+            </a>
             <a href="https://www.linkedin.com/in/ettione-stuckey-ii-143b8a242/">
               <AiFillLinkedin />
-            <a>
+            </a>
           </div>
           
           <div className='mt-6'>
