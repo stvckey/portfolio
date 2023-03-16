@@ -496,8 +496,12 @@ export default function Home() {
           <h3 className='text-2xl md:text-4xl pb-5 leading-11 font-teko text-gray-500'>//Socials</h3>
 
           <div className='dark:text-black text-5xl md:text-8xl justify-center flex gap-10 py-3'>
-            <AiFillGithub />
-            <AiFillLinkedin />
+            <a href="https://github.com/stvckey">
+              <AiFillGithub />
+            <a>
+            <a href="https://www.linkedin.com/in/ettione-stuckey-ii-143b8a242/">
+              <AiFillLinkedin />
+            <a>
           </div>
           
           <div className='mt-6'>
