@@ -202,12 +202,12 @@ export default function Home() {
             <h3 className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//See it in action</h3>
 
             <div className='flex mb-2'> 
-              <p className='font-teko text-xl md:text-4xl pr-3'>See the code</p>
+              <p className='dark:text-black font-teko text-xl md:text-4xl pr-3'>See the code</p>
               <a href='https://github.com/stvckey/National-Park-Finder' className='flex cursor-pointer pl-0'><AiFillGithub className='text-2xl md:text-4xl'/></a>
             </div>
 
             <div className='flex'> 
-              <p className='font-teko text-xl md:text-4xl pr-3'>Visit the site</p>
+              <p className='dark:text-black font-teko text-xl md:text-4xl pr-3'>Visit the site</p>
               <a href='https://morning-scrubland-18297.herokuapp.com/' className='flex cursor-pointer pl-0'><AiOutlineLink className='text-2xl md:text-4xl'/></a>
             </div> 
           </div>
@@ -242,12 +242,12 @@ export default function Home() {
             <h3 className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//See it in action</h3>
 
             <div className='flex mb-2'> 
-              <p className='font-teko text-xl md:text-4xl pr-3'>See the code</p>
+              <p className='dark:text-black font-teko text-xl md:text-4xl pr-3'>See the code</p>
               <a href='https://github.com/stvckey/Dreamland-Real-Estate' className='flex cursor-pointer pl-0'><AiFillGithub className='text-2xl md:text-4xl'/></a>
             </div>
 
             <div className='flex'> 
-              <p className='font-teko text-xl md:text-4xl pr-3'>View the demo</p>
+              <p className='dark:text-black font-teko text-xl md:text-4xl pr-3'>View the demo</p>
               <a href='https://drive.google.com/file/d/1HWhT2vaWcVMCIHKVeaZwxQp6UcqNQC-b/view?usp=sharing' className='flex cursor-pointer pl-0'><AiOutlineLink className='md:text-4xl text-2xl'/></a>
             </div> 
           </div>
@@ -283,7 +283,7 @@ export default function Home() {
             <h3 className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//See it in action</h3>
 
             <div className='flex mb-2'> 
-              <p className='font-teko text-xl md:text-4xl pr-3'>See the code</p>
+              <p className='dark:text-black font-teko text-xl md:text-4xl pr-3'>See the code</p>
               <a href='https://github.com/stvckey/Movie-Rating-App' className='flex cursor-pointer pl-0'><AiFillGithub className='text-2xl md:text-4xl'/></a>
             </div>
           </div>
@@ -315,7 +315,7 @@ export default function Home() {
             <h3 className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//See it in action</h3>
 
             <div className='flex mb-2'> 
-              <p className='font-teko text-xl md:text-4xl pr-3'>See the code</p>
+              <p className='dark:text-black font-teko text-xl md:text-4xl pr-3'>See the code</p>
               <a href='' className='flex cursor-pointer pl-0'><AiFillGithub className='text-2xl md:text-4xl'/></a>
             </div>
           </div>
