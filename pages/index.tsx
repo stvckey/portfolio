@@ -36,10 +36,10 @@ export default function Home() {
               </div>
 
               <div className='hidden md:flex items-center space-x-3'>
-                <a href="#work" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.WORK()</a>
-                <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.ABOUT()</a>
-                <a href="#tools" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.TOOLS()</a>
-                <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.CONTACT()</a>
+                <a href="#work" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>WORK</a>
+                <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>ABOUT</a>
+                <a href="#tools" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>TOOLS</a>
+                <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>CONTACT</a>
               </div>
 
               <div className='hidden md:flex items-center space-x-6'>
@@ -68,22 +68,22 @@ export default function Home() {
           <div className='mobile-menu z-40 absolute h-screen w-full translate-x-0 duration-500 bg-black dark:bg-white'>
 
             <a href="#work" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .WORK ( )
+              WORK
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see some projects</p>
             </a>
 
             <a href="#about" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .ABOUT ( )
+              ABOUT
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get to know me</p>
             </a>
             
             <a href="#tools" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .TOOLS ( )
+              TOOLS
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//how the magic happens</p>
             </a>
             
             <a href="#contact" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .CONTACT ( )
+              CONTACT
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get in touch</p>
             </a>
 
@@ -96,22 +96,22 @@ export default function Home() {
           <div className='mobile-menu absolute h-screen w-full bg-black dark:bg-white -translate-x-full duration-500'>
 
             <a href="#work" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .WORK ( )
+              WORK
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see some projects</p>
             </a>
 
             <a href="#about" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .ABOUT ( )
+              ABOUT
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get to know me</p>
             </a>
             
             <a href="#tools" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .TOOLS ( )
+              TOOLS
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//how the magic happens</p>
             </a>
             
             <a href="#contact" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .CONTACT ( )
+              CONTACT
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get in touch</p>
             </a>
 
@@ -142,8 +142,9 @@ export default function Home() {
                 options={{
                   strings: [
                     'Full Stack Software Engineer', 
-                    'Competitive Tekken Player', 
-                    'Music Producer'
+                    'Front End Developer', 
+                    'Backend Developer',
+                    'Web Developer'
                   ],
                   autoStart: true,
                   loop: true,
