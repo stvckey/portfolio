@@ -36,7 +36,7 @@ export default function Home() {
               </div>
 
               <div className='hidden md:flex items-center space-x-3'>
-                <a href="#work" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>WORK</a>
+                <a href="#work" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>PROJECTS</a>
                 <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>ABOUT</a>
                 <a href="#tools" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>TOOLS</a>
                 <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>CONTACT</a>
@@ -68,7 +68,7 @@ export default function Home() {
           <div className='mobile-menu z-40 absolute h-screen w-full translate-x-0 duration-500 bg-black dark:bg-white'>
 
             <a href="#work" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              WORK
+              PROJECTS
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see some projects</p>
             </a>
 
@@ -96,7 +96,7 @@ export default function Home() {
           <div className='mobile-menu absolute h-screen w-full bg-black dark:bg-white -translate-x-full duration-500'>
 
             <a href="#work" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              WORK
+              PROJECTS
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see some projects</p>
             </a>
 
@@ -167,7 +167,7 @@ export default function Home() {
         <section id='work' className='mb-20 md:mt-5'>
             
           <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
-            &lt;wrapper id="work"&gt;
+            &lt;wrapper id="PROJECTS"&gt;
           </h3>
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
