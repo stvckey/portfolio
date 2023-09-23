@@ -141,10 +141,9 @@ export default function Home() {
               <Typewriter
                 options={{
                   strings: [
-                    'Full Stack Software Engineer', 
+                    'Full Stack Developer', 
                     'Front End Developer', 
-                    'Backend Developer',
-                    'Web Developer'
+                    'Back End Developer',
                   ],
                   autoStart: true,
                   loop: true,
