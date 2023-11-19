@@ -9,6 +9,7 @@ import movies1 from '../public/movies(1).jpg'
 import site from '../public/site.png'
 import { useState } from 'react';
 import Typewriter from 'typewriter-effect';
+import { Helmet } from "react-helmet"
 
 
 
@@ -20,6 +21,16 @@ export default function Home() {
 
   return (
     <>
+
+    <Helmet>
+      <script
+        src="//code.tidio.co/gsprsrlvsn6d2wp1rqkjpa3x6hniy3wx.js"
+        crossorigin="anonymous"
+        async
+      ></script>
+    </Helmet>
+
+      
 
     <div className={darkMode ? "dark" : ""}>
       <div className='dark:bg-white scroll-smooth'>
