@@ -9,7 +9,7 @@ import movies1 from '../public/movies(1).jpg'
 import site from '../public/site.png'
 import { useState } from 'react';
 import Typewriter from 'typewriter-effect';
-import { Helmet } from "react-helmet"
+import { Helmet } from "react-helmet-async";
 
 
 
