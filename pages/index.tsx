@@ -193,7 +193,7 @@ export default function Home() {
                   <p className='text-xl md:text-3xl py-5 leading-11 font-teko px-5'>
                     With a Back-End powered by <span className='text-green-400'>FLASK</span>, I used 
                     <span className='text-green-400'> REST API</span> to find local parks, explore amenities, and track weather information. I then used
-                    <span className='text-green-400'> SQLALCHEMY</span> to create user authentication, and
+                    <span className='text-green-400'> POSTGRESQL</span> to create user authentication, and
                     <span className='text-green-400'> HEROKU</span> to host it all. 
                     </p>
                     <p className='text-xl md:text-2xl py-5 leading-11 font-teko px-5'>
@@ -210,7 +210,7 @@ export default function Home() {
               <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>HTML</div>
               <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>CSS</div>
               <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>JAVASCRIPT</div>
-              <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>SQLALCHEMY</div>
+              <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>POSTGRESQL</div>
             </div>
             <h3 className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//See it in action</h3>
 
@@ -275,7 +275,7 @@ export default function Home() {
                   <p className='text-xl md:text-3xl py-5 leading-11 font-teko px-5'>
                     With a Back-End powered by <span className='text-green-400'>FLASK</span>, I used 
                     <span className='text-green-400'> REST API</span> to collect data on recently released films. I then used
-                    <span className='text-green-400'> SQLALCHEMY</span> to create user authentication, and
+                    <span className='text-green-400'> POSTGRESQL</span> to create user authentication, and
                     <span className='text-green-400'> HEROKU</span> to host it all. 
                     </p>
                 </div>
@@ -285,7 +285,7 @@ export default function Home() {
             <h3 className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//Tech stack</h3>
             <div className='flex-wrap flex gap-4 w-auto md:text-3xl'>
               <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>JAVASCRIPT</div>
-              <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>SQLALCHEMY</div>
+              <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>POSTGRESQL</div>
               <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>PYTHON</div>
               <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>FLASK</div>
               <div className='border px-3 py-1 font-tekobold bg-white dark:bg-black dark:text-white text-black text-xl'>HTML</div>
