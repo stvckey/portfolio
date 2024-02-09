@@ -43,7 +43,7 @@ export default function Home() {
 
               <div className='hidden md:flex items-center space-x-6'>
                 <div onClick={ () => setDarkMode(!darkMode)} className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
-                  <BsFillMoonStarsFill/>                  
+                  {/*<BsFillMoonStarsFill/>*/}              
                 </div>
 
                 <div className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
@@ -94,7 +94,7 @@ export default function Home() {
             </a>
 
             <div onClick={ () => setDarkMode(!darkMode)} className= "dark:text-black py-5 px-8 text-3xl hover:text-green-400 duration-500">
-              <BsFillMoonStarsFill/>
+              {/*<BsFillMoonStarsFill/>*/} 
               <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//toggle darkmode!</p>
             </div>
 
@@ -172,7 +172,7 @@ export default function Home() {
 
           <div className='flex pt-20 md:h-96 md:mt-50 md:pt-64 md:mb-20'>
             <a href='#projects'>
-              <BsFillArrowDownCircleFill className='dark:text-black cursor-pointer md:text-6xl text-5xl h-96 md:h-80 animate-bounce'/>
+              {/*<BsFillArrowDownCircleFill className='dark:text-black cursor-pointer md:text-6xl text-5xl h-96 md:h-80 animate-bounce'/>*/} 
             </a>
           </div>
         </section>
