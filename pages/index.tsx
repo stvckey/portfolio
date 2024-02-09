@@ -36,19 +36,26 @@ export default function Home() {
               </div>
 
               <div className='hidden md:flex items-center space-x-3'>
-                <a href="#work" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>. WORK( )</a>
-                <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>. ABOUT( )</a>
-                <a href="#tools" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>. TOOLS( )</a>
-                <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>. CONTACT( )</a>
+                <a href="#projects" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.PROJECTS</a>
+                <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.ABOUT</a>
+                <a href="#skills" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.SKILLS</a>
+                <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.CONTACT</a>
               </div>
 
               <div className='hidden md:flex items-center space-x-6'>
                 <div onClick={ () => setDarkMode(!darkMode)} className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
-                  <BsFillMoonStarsFill/>
+                  <BsFillMoonStarsFill/>                  
                 </div>
-                <a>
-                  <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
-                </a>
+
+                <div className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
+                  <a className="text-4xl"href="https://github.com/stvckey" target="_blank"><AiFillGithub /></a>                  
+                </div>
+
+                <div className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
+                  <a className="text-4xl"href="https://www.linkedin.com/in/ettione-stuckey/" target="_blank"><AiFillLinkedin /></a>                  
+                </div>
+
+                
               </div>
 
               <div className='md:hidden flex items-center'>
@@ -67,51 +74,60 @@ export default function Home() {
           {mobileMode ?
           <div className='mobile-menu z-40 absolute h-screen w-full translate-x-0 duration-500 bg-black dark:bg-white'>
 
-            <a href="#work" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .WORK ( )
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see some projects</p>
+            <a href="#projects" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
+              .PROJECTS
+              <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//see some projects</p>
             </a>
 
             <a href="#about" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .ABOUT ( )
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get to know me</p>
+              .ABOUT
+              <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//get to know me</p>
             </a>
             
-            <a href="#tools" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .TOOLS ( )
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//how the magic happens</p>
+            <a href="#skills" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
+              .SKILLS
+              <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//how the magic happens</p>
             </a>
             
             <a href="#contact" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .CONTACT ( )
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get in touch</p>
+              .CONTACT
+              <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//get in touch</p>
             </a>
 
             <div onClick={ () => setDarkMode(!darkMode)} className= "dark:text-black py-5 px-8 text-3xl hover:text-green-400 duration-500">
               <BsFillMoonStarsFill/>
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//toggle darkmode!</p>
+              <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//toggle darkmode!</p>
             </div>
+
+            <div>
+              <div className= "text-3xl py-5 px-8 flex flex-row">
+              <a className="text-4xl cursor-pointer hover:text-green-400 duration-500"href="https://github.com/stvckey" target="_blank"><AiFillGithub /></a>
+              <a className="text-4xl px-2 cursor-pointer hover:text-green-400 duration-500"href="https://www.linkedin.com/in/ettione-stuckey/" target="_blank"><AiFillLinkedin /></a>                 
+              </div>
+              <p className='text-2xl md:text-4xl px-8 leading-11 font-teko text-gray-500'>//Github | LinkedIn</p>
+            </div>
+
 
           </div> :
           <div className='mobile-menu absolute h-screen w-full bg-black dark:bg-white -translate-x-full duration-500'>
 
-            <a href="#work" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .WORK ( )
+            <a href="#projects" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
+              .PROJECTS
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see some projects</p>
             </a>
 
             <a href="#about" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .ABOUT ( )
+              .ABOUT
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get to know me</p>
             </a>
             
-            <a href="#tools" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .TOOLS ( )
+            <a href="#skills" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
+              .SKILLS
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//how the magic happens</p>
             </a>
             
             <a href="#contact" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              .CONTACT ( )
+              .CONTACT
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get in touch</p>
             </a>
 
@@ -142,8 +158,8 @@ export default function Home() {
                 options={{
                   strings: [
                     'Full Stack Software Engineer', 
-                    'Competitive Tekken Player', 
-                    'Music Producer'
+                    'Data Engineer', 
+                    'AWS Cloud Practitioner'
                   ],
                   autoStart: true,
                   loop: true,
@@ -156,26 +172,22 @@ export default function Home() {
           </div>
 
           <div className='flex pt-20 md:h-96 md:mt-50 md:pt-64 md:mb-20'>
-            <a href='#work'>
+            <a href='#projects'>
               <BsFillArrowDownCircleFill className='dark:text-black cursor-pointer md:text-6xl text-5xl h-96 md:h-80 animate-bounce'/>
             </a>
           </div>
         </section>
 
-
-        <section id='work' className='mb-20 md:mt-5'>
+        <section id='projects' className='mb-20 md:mt-5'>
             
           <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
-            &lt;wrapper id="work"&gt;
+            &lt;wrapper id="<span className='text-white'>PROJECTS</span>"&gt;
           </h3>
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
             <div className='relative overflow-hidden bg-white/40 mb-2 md:h-auto'>
-<<<<<<< HEAD
-              <Image width={300} height={300} alt='park' src={park.src} className="h-full w-full md:aspect-video" />
-=======
+
               <Image width={300} height={300} alt='park' src={park} className="h-full w-full md:aspect-video" />
->>>>>>> c54242b88fd409026aaa74fdc365039b104c9a56
               <div className='absolute h-full w-full bg-black/70 flex items-center justify-center bottom-0 opacity-100 '>
                 <div>
                   <h3 className='text-4xl md:text-6xl p-5 leading-11 font-tekobold'>National Parks Finder</h3>
@@ -213,7 +225,6 @@ export default function Home() {
               <a href='https://morning-scrubland-18297.herokuapp.com/' className='flex cursor-pointer pl-0'><AiOutlineLink className='text-2xl md:text-4xl'/></a>
             </div> 
           </div>
-
 
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
@@ -255,7 +266,6 @@ export default function Home() {
           </div>
 
 
-
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
 
             <div className='relative overflow-hidden bg-white/40 mb-2 md:h-auto'>
@@ -289,7 +299,6 @@ export default function Home() {
               <a href='https://github.com/stvckey/Movie-Rating-App' className='flex cursor-pointer pl-0'><AiFillGithub className='text-2xl md:text-4xl'/></a>
             </div>
           </div>
-
 
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
@@ -331,7 +340,7 @@ export default function Home() {
 
         <section id='about' className='mb-20'>
           <h2 className='text-5xl md:text-7xl py-5 leading-10 font-teko text-green-400'>
-            &lt;wrapper id="about"&gt;
+            &lt;wrapper id="<span className='text-white'>ABOUT</span>"&gt;
           </h2>
 
           <p className='py-1 font-teko dark:text-black text-white text-xl md:text-5xl tracking-wide'>
@@ -344,7 +353,6 @@ export default function Home() {
           <p className='py-5 md:text-4xl font-teko text-gray-500 text-xl tracking-wide'>
             // for more details on my experience ⬇️
           </p>
-
 
 
           <h3 className='dark:text-black text-5xl md:text-7xl pt-5 leading-normal font-teko tracking-wide'>
@@ -391,10 +399,6 @@ export default function Home() {
             appraisals to assist customers with the buying and selling of their vehicle.
           </p>
 
-          <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
-            &lt;/wrapper&gt;
-          </h3>
-
 
           <h3 className='dark:text-black text-5xl md:text-7xl pt-5 leading-normal font-teko tracking-wide'>
             2. RaceTrac
@@ -422,18 +426,16 @@ export default function Home() {
           <p className='dark:text-black mb-5 font-teko text-white text-2xl md:text-3xl tracking-wide'>
             Completed sales transactions within establishment. (<span className='text-green-400'> My Pleasure! &#128020;</span>)
           </p>
-
-
-
-
-
-
+          
+          <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
+            &lt;/wrapper&gt;
+          </h3>
 
         </section>
 
-        <section id='tools' className='mb-20'>
+        <section id='skills' className='mb-20'>
           <h2 className='text-5xl md:text-7xl py-5 leading-10 font-teko text-green-400'>
-            &lt;wrapper id="tools"&gt;
+            &lt;wrapper id="<span className='text-white'>SKILLS</span>"&gt;
           </h2>
           <h3 className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>
             // I like to see myself as somewhat of a programming aficionado, 
@@ -488,7 +490,7 @@ export default function Home() {
 
         <section id='contact' className='mb-20 pb-10'>
           <h2 className='dark:text-black text-5xl md:text-7xl py-5 leading-10 font-teko text-green-400'>
-            &lt;wrapper id="contact"&gt;
+            &lt;wrapper id="<span className="text-white">CONTACT</span>"&gt;
           </h2>
           <h2 className='dark:text-black text-5xl md:text-8xl py-5 leading-10 font-teko text-white'>
             Get in touch &#x1F4E1;
@@ -499,8 +501,8 @@ export default function Home() {
           <h3 className='text-2xl md:text-4xl pb-5 leading-11 font-teko text-gray-500'>//Socials</h3>
 
           <div className='dark:text-black text-5xl md:text-8xl justify-center flex gap-10 py-3'>
-            <AiFillGithub />
-            <AiFillLinkedin />
+            <a href="https://github.com/stvckey" target="_blank"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/ettione-stuckey/" target="_blank"><AiFillLinkedin /></a>
           </div>
           
           <div className='mt-6'>
