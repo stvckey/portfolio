@@ -446,12 +446,12 @@ export default function Home() {
               <h2 className='text-2xl py-5 leading-10 font-teko text-green-400'>
                 Back-End Technology
               </h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Node</h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>PostgreSQL</h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>REST API</h2>
               <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Python</h2>
               <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Java</h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Flask</h2>
+              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>PostgreSQL</h2>
+              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>MySQL</h2>
+              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>ServiceNow</h2>
+              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>PHP</h2>
             </div>
 
             <div>
@@ -462,20 +462,18 @@ export default function Home() {
               <h2 className='dark:text-black text-2xl leading-10 font-teko white'>React</h2>
               <h2 className='dark:text-black text-2xl leading-10 font-teko white'>HTML5</h2>
               <h2 className='dark:text-black text-2xl leading-10 font-teko white'>CSS3</h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Next.js</h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Tailwind</h2>
             </div>
 
             <div>
               <h2 className='text-2xl py-5 leading-10 font-teko text-green-400'>
-                Other
+                Other Skills
               </h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Agile</h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Heroku</h2>
+              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Selenium</h2>
+              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>AWS</h2>
               <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Git</h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>OAuth</h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>TDD</h2>
-              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>CI/CD</h2>
+              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>REST API</h2>
+              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>Pandas</h2>
+              <h2 className='dark:text-black text-2xl leading-10 font-teko white'>NumPy</h2>
             </div>
 
           </div>
