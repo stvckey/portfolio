@@ -36,7 +36,7 @@ export default function Home() {
 
               <div className='hidden md:flex items-center space-x-3'>
                 <a href="#projects" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>PROJECTS</a>
-                <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>ABOUT</a>
+                <a href="#experience" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>EXPERIENCE</a>
                 <a href="#skills" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>SKILLS</a>
                 <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>CONTACT</a>
               </div>
@@ -78,8 +78,8 @@ export default function Home() {
               <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//see my projects</p>
             </a>
 
-            <a href="#about" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              ABOUT
+            <a href="#experience" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
+              EXPERIENCE
               <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//get to know me</p>
             </a>
             
@@ -115,8 +115,8 @@ export default function Home() {
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see some projects</p>
             </a>
 
-            <a href="#about" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              ABOUT
+            <a href="#experience" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
+              EXPERIENCE
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get to know me</p>
             </a>
             
@@ -337,9 +337,9 @@ export default function Home() {
         </section>
 
 
-        <section id='about' className='mb-20'>
+        <section id='experience' className='mb-20'>
           <h2 className='text-5xl md:text-7xl py-5 leading-10 font-teko text-green-400'>
-            &lt;wrapper id="<span className='text-white dark:text-black'>ABOUT</span>"&gt;
+            &lt;wrapper id="<span className='text-white dark:text-black'>EXPERIENCE</span>"&gt;
           </h2>
 
           <p className='py-1 font-teko dark:text-black text-white text-xl md:text-5xl tracking-wide'>
