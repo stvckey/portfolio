@@ -4,7 +4,6 @@ import {AiFillGithub, AiFillLinkedin, AiOutlineLink, AiFillFolderOpen, AiFillFol
 import Image from 'next/image';
 import park from '../public/nationalpark.jpg'
 import dream from '../public/dreamland.png'
-import movies from '../public/movies.jpg'
 import movies1 from '../public/movies(1).jpg'
 import site from '../public/site.png'
 import { useState } from 'react';
@@ -36,24 +35,16 @@ export default function Home() {
               </div>
 
               <div className='hidden md:flex items-center space-x-3'>
-<<<<<<< HEAD
                 <a href="#projects" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.PROJECTS</a>
                 <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.ABOUT</a>
                 <a href="#skills" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.SKILLS</a>
                 <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>.CONTACT</a>
-=======
-                <a href="#work" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>PROJECTS</a>
-                <a href="#about" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>ABOUT</a>
-                <a href="#tools" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>TOOLS</a>
-                <a href="#contact" className='py-5 px-4 text-3xl font-tekobold hover:text-green-400 duration-500'>CONTACT</a>
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
               </div>
 
               <div className='hidden md:flex items-center space-x-6'>
                 <div onClick={ () => setDarkMode(!darkMode)} className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
                   <BsFillMoonStarsFill/>                  
                 </div>
-<<<<<<< HEAD
 
                 <div className= "text-3xl cursor-pointer hover:text-green-400 duration-500">
                   <a className="text-4xl"href="https://github.com/stvckey" target="_blank"><AiFillGithub /></a>                  
@@ -64,11 +55,6 @@ export default function Home() {
                 </div>
 
                 
-=======
-                <a href="https://docs.google.com/document/d/1UIadA06hGhrdPKCzhKx5LHiHsKyZ0JmRTdZ_2R5jtto/edit?usp=sharing">
-                  <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
-                </a>
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
               </div>
 
               <div className='md:hidden flex items-center'>
@@ -87,7 +73,6 @@ export default function Home() {
           {mobileMode ?
           <div className='mobile-menu z-40 absolute h-screen w-full translate-x-0 duration-500 bg-black dark:bg-white'>
 
-<<<<<<< HEAD
             <a href="#projects" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
               .PROJECTS
               <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//see some projects</p>
@@ -112,32 +97,6 @@ export default function Home() {
               <BsFillMoonStarsFill/>
               <p className='text-2xl md:text-4xl py-4 leading-11 font-teko text-gray-500'>//toggle darkmode!</p>
             </div>
-=======
-            <a href="#work" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              PROJECTS
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see some projects</p>
-            </a>
-
-            <a href="#about" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              ABOUT
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get to know me</p>
-            </a>
-            
-            <a href="#tools" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              TOOLS
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//how the magic happens</p>
-            </a>
-            
-            <a href="#contact" onClick={() => setMobileMode(!mobileMode)} className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              CONTACT
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get in touch</p>
-            </a>
-
-             <a className="py-5 px-8" href="https://docs.google.com/document/d/1UIadA06hGhrdPKCzhKx5LHiHsKyZ0JmRTdZ_2R5jtto/edit?pli=1">
-               <button className='text-xl bg-green-500 text-white font-tekobold duration-500 px-4 py-2 hover:bg-green-400 rounded'>RESUME</button>
-               <p className='px-8 text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see more</p>
-             </a>
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
 
             <div>
               <div className= "text-3xl py-5 px-8 flex flex-row">
@@ -151,41 +110,23 @@ export default function Home() {
           </div> :
           <div className='mobile-menu absolute h-screen w-full bg-black dark:bg-white -translate-x-full duration-500'>
 
-<<<<<<< HEAD
             <a href="#projects" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
               .PROJECTS
-=======
-            <a href="#work" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              PROJECTS
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//see some projects</p>
             </a>
 
             <a href="#about" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-<<<<<<< HEAD
               .ABOUT
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get to know me</p>
             </a>
             
             <a href="#skills" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
               .SKILLS
-=======
-              ABOUT
-              <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get to know me</p>
-            </a>
-            
-            <a href="#tools" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-              TOOLS
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//how the magic happens</p>
             </a>
             
             <a href="#contact" className='dark:text-black block py-5 px-8 text-2xl font-tekobold hover:text-green-400 duration-500'>
-<<<<<<< HEAD
               .CONTACT
-=======
-              CONTACT
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
               <p className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//get in touch</p>
             </a>
 
@@ -215,15 +156,9 @@ export default function Home() {
               <Typewriter
                 options={{
                   strings: [
-<<<<<<< HEAD
                     'Full Stack Software Engineer', 
                     'Data Engineer', 
                     'AWS Cloud Practitioner'
-=======
-                    'Full Stack Developer', 
-                    'Front End Developer', 
-                    'Back End Developer',
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
                   ],
                   autoStart: true,
                   loop: true,
@@ -245,11 +180,7 @@ export default function Home() {
         <section id='projects' className='mb-20 md:mt-5'>
             
           <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
-<<<<<<< HEAD
             &lt;wrapper id="<span className='text-white'>PROJECTS</span>"&gt;
-=======
-            &lt;wrapper id="PROJECTS"&gt;
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
           </h3>
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
@@ -349,7 +280,7 @@ export default function Home() {
                     </p>
                 </div>
               </div>
-            </div>
+            </div> 
 
             <h3 className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>//Tech stack</h3>
             <div className='flex-wrap flex gap-4 w-auto md:text-3xl'>
@@ -498,15 +429,6 @@ export default function Home() {
           <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
             &lt;/wrapper&gt;
           </h3>
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
 
         </section>
 
@@ -578,17 +500,8 @@ export default function Home() {
           <h3 className='text-2xl md:text-4xl pb-5 leading-11 font-teko text-gray-500'>//Socials</h3>
 
           <div className='dark:text-black text-5xl md:text-8xl justify-center flex gap-10 py-3'>
-<<<<<<< HEAD
             <a href="https://github.com/stvckey" target="_blank"><AiFillGithub /></a>
             <a href="https://www.linkedin.com/in/ettione-stuckey/" target="_blank"><AiFillLinkedin /></a>
-=======
-            <a href="https://github.com/stvckey">
-              <AiFillGithub />
-            </a>
-            <a href="https://www.linkedin.com/in/ettione-stuckey-ii-143b8a242/">
-              <AiFillLinkedin />
-            </a>
->>>>>>> 1b299dba27b98aa0f5bd6c52a28370af0deb0eae
           </div>
           
           <div className='mt-6'>
