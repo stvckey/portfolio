@@ -180,7 +180,7 @@ export default function Home() {
         <section id='projects' className='mb-20 md:mt-5'>
             
           <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
-            &lt;wrapper id="<span className='text-white'>PROJECTS</span>"&gt;
+            &lt;wrapper id="<span className='text-white dark:text-black'>PROJECTS</span>"&gt;
           </h3>
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
@@ -339,7 +339,7 @@ export default function Home() {
 
         <section id='about' className='mb-20'>
           <h2 className='text-5xl md:text-7xl py-5 leading-10 font-teko text-green-400'>
-            &lt;wrapper id="<span className='text-white'>ABOUT</span>"&gt;
+            &lt;wrapper id="<span className='text-white dark:text-black'>ABOUT</span>"&gt;
           </h2>
 
           <p className='py-1 font-teko dark:text-black text-white text-xl md:text-5xl tracking-wide'>
@@ -434,7 +434,7 @@ export default function Home() {
 
         <section id='skills' className='mb-20'>
           <h2 className='text-5xl md:text-7xl py-5 leading-10 font-teko text-green-400'>
-            &lt;wrapper id="<span className='text-white'>SKILLS</span>"&gt;
+            &lt;wrapper id="<span className='text-white dark:text-black'>SKILLS</span>"&gt;
           </h2>
           <h3 className='text-2xl md:text-4xl py-5 leading-11 font-teko text-gray-500'>
             // I like to see myself as somewhat of a programming aficionado, 
@@ -489,7 +489,7 @@ export default function Home() {
 
         <section id='contact' className='mb-20 pb-10'>
           <h2 className='dark:text-black text-5xl md:text-7xl py-5 leading-10 font-teko text-green-400'>
-            &lt;wrapper id="<span className="text-white">CONTACT</span>"&gt;
+            &lt;wrapper id="<span className="text-white dark:text-black">CONTACT</span>"&gt;
           </h2>
           <h2 className='dark:text-black text-5xl md:text-8xl py-5 leading-10 font-teko text-white'>
             Get in touch &#x1F4E1;
