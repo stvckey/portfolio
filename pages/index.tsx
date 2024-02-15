@@ -4,7 +4,7 @@ import {AiFillGithub, AiFillLinkedin, AiOutlineLink, AiFillFolderOpen, AiFillFol
 import Image from 'next/image';
 import park from '../public/nationalpark.jpg'
 import dream from '../public/dreamland.png'
-import movies1 from '../public/movies(1).jpg'
+import movies1 from '../public/movies.jpg'
 import site from '../public/site.png'
 import { useState } from 'react';
 import Typewriter from 'typewriter-effect';
@@ -228,7 +228,7 @@ export default function Home() {
 
           <div className='pb-20 md:max-w-[900px] md:mx-auto'>
             <div className='relative overflow-hidden bg-white/40 mb-2 md:h-auto'>
-              <Image width={300} height={300} alt='dream' src={dream} className="h-full w-full md:aspect-video"/>
+              <Image  alt='dream' src={dream} className="h-full w-full md:aspect-video"/>
               <div className='absolute h-full w-full bg-black/70 flex items-center justify-center bottom-0 opacity-100'>
                 <div>
                   <h3 className='text-4xl md:text-6xl p-5 leading-11 font-tekobold'>Dreamland Estate</h3>
