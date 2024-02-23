@@ -171,7 +171,7 @@ export default function Home() {
           </div>
 
           <div className='flex pt-20 md:h-96 md:mt-50 md:pt-64 md:mb-20'>
-            <a href='#projects'>
+            <a href='#skills'>
               <BsFillArrowDownCircleFill className='dark:text-black cursor-pointer md:text-6xl text-5xl h-96 md:h-80 animate-bounce'/>
             </a>
           </div>
