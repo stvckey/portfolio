@@ -233,12 +233,6 @@ export default function Home() {
             &lt;wrapper id="<span className='text-white dark:text-black'>EXPERIENCE</span>"&gt;
           </h2>
 
-          <p className='py-1 font-teko dark:text-black text-white text-xl md:text-5xl tracking-wide'>
-          Recent JUMP graduate pursuing a <span className="text-green-400">PYTHON</span> Development career, 
-          looking to combine nearly 18 months of industry equivalent experience with a strong digital 
-          mindset to become a valued asset your organization.
-          </p>
-
           <br></br>
 
           <p className='py-1 font-teko dark:text-black text-white text-xl md:text-5xl tracking-wide'>
@@ -373,8 +367,23 @@ export default function Home() {
                 <AiOutlineLink className='dark:text-black text-2xl md:text-4xl'/>
               </a>
           </div>
-
-
+          
+          <h3 className='dark:text-black text-5xl md:text-7xl pt-5 leading-normal font-teko tracking-wide'>
+            3. Cognixia Data Engineering Certificate
+          </h3>
+          <h4 className='font-teko text-green-400 text-4xl md:text-6xl tracking-wide'>
+            Cognixia
+          </h4>
+          <h5 className='dark:text-black font-teko text-white text-3xl md:text-5xl tracking-wide'>
+            FEB 2024
+          </h5>
+          <div className='flex'> 
+              <p className='dark:text-black font-teko text-4xl md:text-4xl pr-3'>View the achievement</p>
+              <a href='https://www.linkedin.com/feed/update/urn:li:activity:7166856590074068994/' 
+                target="_blank" className='flex cursor-pointer pl-0'>
+                <AiOutlineLink className='dark:text-black text-2xl md:text-4xl'/>
+              </a>
+          </div>
           
           <h3 className='text-5xl md:text-7xl py-5 leading-11 font-teko text-green-400'>
             &lt;/wrapper&gt;
